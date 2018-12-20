@@ -1,0 +1,4 @@
+#!/bin/bash
+
+node_modules/.bin/electron-rebuild
+node_modules/.bin/electron-packager . --out=dist --overwrite=true --icon=icon.icns --build-with-native-modules --asar
